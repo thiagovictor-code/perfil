@@ -1,0 +1,63 @@
+body {
+    /* zera margem do corpo do site. */ */
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #680c0c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.profile h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Botões de link */
+.links .btn {
+    display: block;
+    width: 100%;
+    background-color: white;
+    color: #2d2a52;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+    text-align: center;
+}
+
+.Links .btn:hover {
+    background-color: aquamarine;
+}
+
+#mensagem {
+    color: red;
+}
