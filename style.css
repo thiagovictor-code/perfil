@@ -1,32 +1,47 @@
 body {
-    /* zera margem do corpo do site. */ */
-    margin: 0;  
+    margin: 0;
+    /* zera margem do corpo do site  */
     padding: 0;
+    /* zera espaçamento interno  */
     box-sizing: border-box;
-    background-color: #680c0c;
+    /* altera a cor de fundo do site  */
+    background-color: #4c3d7a;
+    /* altera a fonte do texto  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* layount site  */
     display: flex;
+   /* deixa os elementos do site no centro  */
     justify-content: center;
+    /* alinhamento Y -vestical */
     align-items: center;
+    /* utilizar altura 100%  */
     height: 100vh;
 }
 
 .profile {
-    padding: 20px;
+    /* SLA */
+    padding: 5px;
+    /* cor da fonte */
     color: rgb(255, 255, 255);
+    /* alinhamento dos itens */
     align-items: center;
 }
-
 .profile img {
+    /* largura da foto */
     width: 120px;
+    /* altura da foto */
     height: 120px;
+        /* borda da foto */
     border-radius: 50%;
+/* foto no recorte */
     object-fit: cover;
+    /* espaçamento entre a foto e os botões */
     margin-bottom: 15px;
 }
-
 .profile h1 {
+    /* largura dos objetos */
     font-size: 24px;
+    /* nada */
     margin-bottom: 5px;
 }
 .profile h2 {
@@ -54,10 +69,6 @@ body {
     text-align: center;
 }
 
-.Links .btn:hover {
+.links .btn:hover {
     background-color: aquamarine;
-}
-
-#mensagem {
-    color: red;
 }
